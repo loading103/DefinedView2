@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<udesk.sdk.definedview.view.MyDrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/drawer_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bare_bears"></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/drawer_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bare_bears"></RelativeLayout>
+</udesk.sdk.definedview.view.MyDrawerLayout>
